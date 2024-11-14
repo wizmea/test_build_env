@@ -24,6 +24,6 @@ jobs:
 
       - name: Build and push Dockerimage
         run: |
-          docker build \
+          docker buildx build \
             --build-arg TEST=OK \
             -t testimagesample:latest .
