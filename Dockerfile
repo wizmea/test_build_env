@@ -1,5 +1,4 @@
 # Dockerfile
-
 FROM ubuntu:latest
 
 ARG TEST
